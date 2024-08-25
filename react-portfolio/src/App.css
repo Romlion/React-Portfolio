@@ -7,3 +7,181 @@
 
   font-family: "Montserrat", sans-serif;
 }
+/* Main */
+.main {
+  width: 100%;
+  background-color: #0f0f0f;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 300px;
+}
+
+header .left {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+header .left img {
+  width: 150px;
+  height: 190px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header .left .contacts {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+header .left .contacts .contact-item {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #3a3939;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .left .contacts .contact-item:hover {
+  background-color: #535353;
+}
+
+header .right .contact-btn {
+  background-color: #0d6e3e;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.main .body-container {
+  width: 100%;
+  padding: 70px 100px;
+  display: flex;
+}
+
+.main .body-container .left {
+  width: 70%;
+}
+
+.main .body-container .left section {
+  background-color: #282828;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.main .body-container .left section h2 {
+  margin-bottom: 15px;
+}
+
+.main .body-container .left section.projects article {
+  width: 100%;
+}
+
+.main .body-container .left section.projects article .featured-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.main .body-container .left section.projects article h3 {
+  margin: 15px 0;
+}
+
+.main .body-container .left section.projects article .btn-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.main .body-container .left section.projects article .btn-link .btn {
+  background-color: #0d6e3e;
+  color: #ffffff;
+}
+
+.main .body-container .left section.projects article.article-item {
+  display: flex;
+  margin: 10px 0;
+}
+
+.main .body-container .left section.projects article.article-item .left {
+  width: 35%;
+  margin-right: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.main .body-container .left section.projects article.article-item .right {
+  width: 75%;
+}
+
+.main .body-container .left section.experiences article {
+  margin: 10px 0;
+}
+
+/* ASIDE */
+
+aside {
+  width: 29%;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+aside .section {
+  width: 100%;
+  background-color: #282828;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+aside .section h2 {
+  margin-bottom: 10px;
+}
+
+aside .contacts .contact-item {
+  margin: 15px 0;
+}
+
+aside .contacts .contact-item a {
+ color: #0d6e3e;
+}
+
+aside .contacts .contact-item span {
+ margin-left: 10px;
+}
+
+aside .skills .skills-list {
+  margin-top: 10px;
+}
+
+aside .skills .skills-list .full {
+  width: 100%;
+  background-color: #ffffff;
+  height: 15px;
+  border-radius: 7px;
+}
+
+aside .skills .skills-list .full .percent {
+  background-color: #0d6e3e;
+  height: 100%;
+  width: 10%;
+}
