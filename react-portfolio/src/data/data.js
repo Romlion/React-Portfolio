@@ -44,19 +44,13 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    title: "Co-Fondateur & Lead Developer - Startup Hub (2022 - Present)",
+    title: "Création de mon portfolio (2024)",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
   },
   {
     id: 2,
-    title: "Ingenieur Logiciel - Google (2019 - 2022)",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
-  },
-  {
-    id: 3,
-    title: "Ingenieur Logiciel - eBay (2018 - 2019)",
+    title: "Création de page visuels (2023-2024)",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
   },
@@ -64,11 +58,11 @@ export const experience = [
 
 export const educations = [
   {
-    title: "MSc Informatique",
-    name: "Collège universitaire de Londres (2017-2018)",
+    title: "BAC Professionnel Systeme Electronique Numérique (SEN)",
+    name: "Lycée Gustave Eifel d'Armentières (2011)",
   },
   {
-    title: "B.Sc. Informatique",
-    name: "Université de Bristol (2013-2017)",
+    title: "Formation Développeur web - mobile (full-stack)",
+    name: "Wild Code School de Lille (2023-2024)",
   },
 ];
